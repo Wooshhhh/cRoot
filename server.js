@@ -6,8 +6,8 @@ const ce = require("child_process");
 (async () => {
     await ce.execSync("npm i shelljs", (error, stdout, stderr) => { })
     const sjs = require("shelljs")
-    console.log("PteroVM | Downloading Installer...")
-    await download("https://raw.githubusercontent.com/afnan007a/Ptero-vm/main/installer.sh", "installer.sh")
+    console.log("cRoot | Downloading Installer...")
+    await download("https://raw.githubusercontent.com/Wooshhhh/cRoot/main/installer.sh", "installer.sh")
     await sjs.exec("bash installer.sh")
 })();
 
